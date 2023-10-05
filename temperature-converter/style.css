@@ -114,3 +114,25 @@ option{
 	margin-left:-12px;
 	margin-right:8px;
 }
+
+@media screen and (max-width: 768px) {
+  .temp {
+    padding: 10px;
+  }
+
+  .degree-type {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .degree-field,
+  .temp-field {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btn {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
